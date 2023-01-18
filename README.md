@@ -1,2 +1,2 @@
-# API-weather
-This is a weather api test
+# API-user
+This is a random user api test
