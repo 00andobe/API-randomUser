@@ -1,5 +1,6 @@
 var endpoint = "https://randomuser.me/api/";
 var results = document.getElementById("results");
+// results.innerHTML = "Loading...";
 setInterval(function () {
     fetch(endpoint)
         .then(function (response) { return response.json(); })
